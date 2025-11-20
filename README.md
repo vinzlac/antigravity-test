@@ -38,11 +38,12 @@ The application follows the Hexagonal Architecture principles to isolate the dom
 
 ### Prerequisites
 *   JDK 21 installed.
-*   Maven installed.
 
 ### Build and Run
+Using the Maven Wrapper (no need to install Maven manually):
+
 ```bash
-mvn clean package
+./mvnw clean package
 java -jar target/ordertaking-0.0.1-SNAPSHOT.jar
 ```
 
